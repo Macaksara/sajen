@@ -1,0 +1,20 @@
+var chalk = require('chalk')
+module.exports = {
+  ireng: chalk.black,
+  abang: chalk.red,
+  ijo: chalk.green,
+  kuning: chalk.yellow,
+  biru: chalk.blue,
+  magenta: chalk.magenta,
+  cyan: chalk.cyan,
+  putih: chalk.white,
+  abuAbu: chalk.gray,
+  lmIreng: chalk.bgBlack,
+  lmAbang: chalk.bgRed,
+  lmIjo: chalk.bgGreen,
+  lmKuning: chalk.bgYellow,
+  lmBiru: chalk.bgBlue,
+  lmMagenta: chalk.bgMagenta,
+  lmCyan: chalk.bgCyan,
+  lmPutih: chalk.bgPutih,
+}
