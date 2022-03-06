@@ -1,0 +1,64 @@
+{
+    "name": "sajen",
+    "version": "0.0.4",
+    "main": "program/main.js",
+    "engines": {
+        "node": ">=6.12.2"
+    },
+    "preferGlobal": true,
+    "bin": {
+        "sajen": "./bin/nyajeni.js"
+    },
+    "scripts": {
+        "start": "node ./bin/nyajeni.js",
+        "test": "jest && ./program/test.sh",
+        "coala": "coala --non-interactive",
+        "format": "eslint . --fix",
+    },
+    "jest": {
+        "coverageDirectory": "./coverage/",
+        "collectCoverage": true
+    },
+    "author": "JstnLT <contact@jstnlt.my.id>",
+    "license": "MIT",
+    "dependencies": {
+        "@macaksara/wernai": "^1.0.8",
+        "axios": "^0.26.0",
+        "chalk": "^4.0.0",
+        "commander": "^7.0.0",
+        "death": "^1.1.0",
+        "js-beautify": "1.14.0",
+        "mkdirp": "^1.0.3",
+        "ncp": "^2.0.0",
+        "readline-sync": "^1.4.7",
+        "recursive-readdir-sync": "^1.0.6"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^7.2.0",
+        "eslint-config-prettier": "^8.0.0",
+        "eslint-plugin-import": "^2.16.0",
+        "eslint-plugin-jest": "^24.0.0",
+        "eslint-plugin-prettier": "^3.0.1",
+        "jest": "^26.0.1",
+        "pmock": "^0.2.3",
+        "prettier": "1.18.2",
+        "rimraf": "^3.0.0"
+    },
+    "description": "Mungkin sebuah bahasa Pemrogramman berbasis pada Javascript yang menggunakan Bahasa Jawa sebagai sintax di dalamnya...",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Macaksara/sajen.git"
+    },
+    "keywords": [
+        "javacript",
+        "sajen",
+        "sajenjs",
+        "indonesia",
+        "indo",
+    ],
+    "bugs": {
+        "url": "https://github.com/Macaksara/sajen/issues"
+    },
+    "homepage": "https://github.com/Macaksara/sajen#readme"
+}
