@@ -1,6 +1,6 @@
 {
     "name": "sajen",
-    "version": "0.0.4",
+    "version": "0.0.6",
     "main": "program/main.js",
     "engines": {
         "node": ">=6.12.2"
