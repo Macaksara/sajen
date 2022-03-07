@@ -1,6 +1,6 @@
 {
     "name": "sajen",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "main": "program/main.js",
     "engines": {
         "node": ">=6.12.2"
@@ -13,7 +13,7 @@
         "start": "node ./bin/nyajeni.js",
         "test": "jest && ./program/test.sh",
         "coala": "coala --non-interactive",
-        "format": "eslint . --fix",
+        "format": "eslint . --fix"
     },
     "jest": {
         "coverageDirectory": "./coverage/",
@@ -56,9 +56,11 @@
         "sajenjs",
         "indonesia",
         "indo",
+        "jawa",
+        "javanese"
     ],
     "bugs": {
         "url": "https://github.com/Macaksara/sajen/issues"
     },
-    "homepage": "https://github.com/Macaksara/sajen#readme"
+    "homepage": "https://sajen.macaksara.tech"
 }
